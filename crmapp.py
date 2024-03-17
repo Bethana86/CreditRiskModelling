@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-st.title('Credit Risk Model Deployment')
+st.title('CREDIT RISK MODELLING')
 st.write('Created by BETHANASAMY RAJAMANI')
 st.write('Use the sidebar to select input features')
 
