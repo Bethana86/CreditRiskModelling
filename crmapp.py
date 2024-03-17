@@ -58,12 +58,12 @@ load_model = joblib.load("credit_risk_model.pkl")
 if st.button('Predict'):
     prediction = load_model.predict(input)
     
-    st.write('Based on user input, the model predicted: ')
+    st.write('Based on Inputs, The Model Predicts: ')
 
     if prediction == 1:
-        st.success('Trusted')
+        st.success('He/She is Trusted')
     else:
-        st.error('Not Trusted')
+        st.error('He/She is Not Trusted')
 
 else:
     pass
